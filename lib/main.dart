@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
+      floatingActionButton: FloatingActionButton( // botão de icone cirular apresentando para interação com usuário - ação principal
         onPressed: _incrementCounter, // função executada quando o usuário clica no botão
         tooltip: 'Aperte aqui', // informação ao usúario para apertar o botão ou poderá ser falado para o usuário 
         child: const Icon(Icons.add), // icone para ser clicado pelo usuario
